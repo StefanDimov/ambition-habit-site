@@ -1,17 +1,30 @@
 /* Fonts ---------------------------------------------------------------------- */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Vars --------------------------------------------------------------------- */
+
+:root {
+    --color-primary: #333;
+    --primary-background-color: #FFF;
+    --secondary-background-color: #fafafa;
+}
+
+/* General --------------------------------------------------------------------- */
 
 body {
     font-family: "Roboto", sans-serif;
+    color: var(--color-primary);
+    background-color: var(--secondary-background-color);
 }
 
 /* Navbar --------------------------------------------------------------------- */
 .navbar {
-    background-color: #333;
     padding: 1em;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: var(--primary-background-color);
 }
 
 .navbar-left {
@@ -22,12 +35,11 @@ body {
 .navbar-logo {
     height: 40px; /* Adjust the height as needed */
     margin-right: 0.5em;
-    border-radius: 10px;
+    border-radius: 0.5em;
 }
 
 .navbar-title {
-    color: white;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: bold;
 }
 
@@ -43,9 +55,10 @@ body {
 }
 
 .navbar a {
-    color: white;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: var(--color-primary);
 }
 
 .navbar a:hover {
@@ -54,38 +67,62 @@ body {
 
 /* Hero Section --------------------------------------------------------------------- */
 .hero {
-    background-color: #333;
     height: 50vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
     text-align: center;
+    background-color: var(--primary-background-color);
 }
 
 .hero-content {
+    margin-top: 10em;
     max-width: 600px;
 }
 
 .hero h1 {
     font-size: 3em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0em;
 }
 
 .hero p {
     font-size: 1.5em;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
 }
 
-.cta-button {
-    background-color: #ff6347;
-    color: white;
-    padding: 0.75em 1.5em;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1em;
+.cta-image {
+    opacity: 0.8;
+    transition: transform 0.25s, opacity 0.25s;
 }
 
-.cta-button:hover {
-    background-color: #ff4500;
+.cta-image:hover {
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+/* Hero Images --------------------------------------------------------------------- */
+.hero-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+}
+
+.hero-image {
+    border: 1px solid #eee;
+    border-radius: 1em;
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+}
+
+.hero-image:nth-child(1),
+.hero-image:nth-child(3) {
+    width: 25%;
+    max-width: 200px;
+    margin: 0 1em;
+}
+
+.hero-image:nth-child(2) {
+    width: 30%;
+    max-width: 250px;
 }
