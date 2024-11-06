@@ -104,8 +104,11 @@ body {
 }
 
 .cta-image {
-    opacity: 0.8;
-    transition: transform 0.25s, opacity 0.25s;
+    transition: transform 0.25s;
+}
+
+.cta-image:first-of-type {
+    margin-right: var(--half-padding);
 }
 
 .cta-image:hover {
@@ -216,8 +219,11 @@ body {
 }
 
 .cta-image {
-    width: 200px;
     transition: transform 0.3s, opacity 0.3s;
+}
+
+.cta-image:nth-child(1) {
+    margin-right: var(--standard-padding);
 }
 
 .cta-image:hover {
