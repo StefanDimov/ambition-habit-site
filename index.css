@@ -8,7 +8,7 @@
     --color-primary: #333;
     --primary-background-color: #FFF;
     --secondary-background-color: #fafafa;
-    --standard-padding: 1rem;
+    --standard-padding: 1.2rem;
     --half-padding: calc(var(--standard-padding) / 2);
     --double-padding: calc(var(--standard-padding) * 2);
     --quadriple-padding: calc(var(--standard-padding) * 4);
@@ -124,19 +124,19 @@ body {
 .hero-image {
     border: 1px solid #eee;
     border-radius: 1rem;
-    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
 }
 
 .hero-image:nth-child(1),
 .hero-image:nth-child(3) {
     width: 25%;
-    max-width: 200px;
+    max-width: 250px;
     margin: 0 var(--standard-padding);
 }
 
 .hero-image:nth-child(2) {
     width: 30%;
-    max-width: 250px;
+    max-width: 300px;
 }
 
 /* Feature Section --------------------------------------------------------------------- */
