@@ -192,3 +192,75 @@ body {
 .feature-text li strong {
     font-weight: bold;
 }
+
+/* CTA Section --------------------------------------------------------------------- */
+.cta-section {
+    background-color: var(--primary-background-color);
+    padding: var(--quadriple-padding) 0;
+    text-align: center;
+}
+
+.cta-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cta-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: var(--standard-padding);
+}
+
+.cta-content p {
+    font-size: 1.2rem;
+    margin-bottom: var(--double-padding);
+}
+
+.cta-image {
+    width: 200px;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.cta-image:hover {
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+/* Footer Section --------------------------------------------------------------------- */
+.footer {
+    background-color: var(--primary-background-color);
+    padding: var(--standard-padding) 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 var(--half-padding) 0;
+    display: flex;
+    gap: var(--standard-padding);
+}
+
+.footer-links li {
+    margin: 0;
+}
+
+.footer-links a {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    color: var(--color-primary);
+    font-size: 0.9rem;
+}
