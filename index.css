@@ -231,6 +231,12 @@ body {
     opacity: 1;
 }
 
+.cta-link {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
 /* Footer Section --------------------------------------------------------------------- */
 .footer {
     background-color: var(--primary-background-color);
