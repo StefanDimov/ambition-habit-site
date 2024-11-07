@@ -56,11 +56,12 @@ body {
   align-items: center;
   text-align: center;
   background-color: var(--primary-background-color);
+  padding: var(--double-padding);
   padding-bottom: var(--quadriple-padding);
+  overflow: hidden;
 }
 
 .hero-content {
-  padding-top: var(--double-padding);
   max-width: 600px;
   display: flex;
   flex-direction: column;
@@ -85,7 +86,6 @@ body {
 .hero h1 {
   font-size: var(--font-size-xxxxlarge);
   margin: 0;
-  white-space: nowrap;
 }
 
 .hero p {
@@ -225,7 +225,7 @@ body {
 /* CTA Section --------------------------------------------------------------------- */
 .cta-section {
   background-color: var(--secondary-background-color);
-  padding: var(--quadriple-padding) 0;
+  padding: var(--double-padding);
   text-align: center;
 }
 
