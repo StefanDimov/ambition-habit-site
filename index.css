@@ -120,10 +120,6 @@ body {
     transition: transform 0.25s;
 }
 
-.cta-image:first-of-type {
-    margin-right: var(--half-padding);
-}
-
 .cta-image:hover {
     transform: scale(1.05);
     opacity: 1;
@@ -209,10 +205,6 @@ body {
     transition: transform 0.3s, opacity 0.3s;
 }
 
-.cta-image:nth-child(1) {
-    margin-right: var(--standard-padding);
-}
-
 .cta-image:hover {
     transform: scale(1.05);
     opacity: 1;
@@ -223,6 +215,11 @@ body {
     color: inherit;
     display: inline-block;
 }
+
+.cta-link:first-of-type {
+    margin-right: var(--standard-padding);
+}
+
 
 /* Other Features Section --------------------------------------------------------------------- */
 .other-features {
