@@ -7,7 +7,7 @@
 :root {
     --color-primary: #333;
     --primary-background-color: #FFF;
-    --secondary-background-color: #fafafa;
+    --secondary-background-color: #f9f9f9;
     --standard-padding: 1.2rem;
     --half-padding: calc(var(--standard-padding) / 2);
     --double-padding: calc(var(--standard-padding) * 2);
@@ -220,6 +220,7 @@ body {
     transition: transform 0.3s;
     flex: 1 1 150px; /* Ensure items are at least 150px wide */
     max-width: 200px; /* Optional: Set a max-width for the items */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Footer Section --------------------------------------------------------------------- */
