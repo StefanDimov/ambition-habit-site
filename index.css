@@ -34,56 +34,6 @@ body {
     margin: 0 auto;
 }
 
-/* Navbar --------------------------------------------------------------------- */
-.navbar {
-    background-color: var(--primary-background-color);
-}
-
-.navbar-content {
-    padding: var(--standard-padding);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.navbar-left {
-    display: flex;
-    align-items: center;
-}
-
-.navbar-logo {
-    height: 40px; /* Adjust the height as needed */
-    margin-right: var(--half-padding);
-    border-radius: 0.5em;
-}
-
-.navbar-title {
-    font-size: var(--font-size-large);
-    font-weight: bold;
-}
-
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.navbar li {
-    margin: 0 var(--standard-padding);
-}
-
-.navbar a {
-    text-decoration: none;
-    font-size: var(--font-size-small);
-    font-weight: bold;
-    color: var(--color-primary);
-}
-
-.navbar a:hover {
-    text-decoration: underline;
-}
-
 /* Hero Section --------------------------------------------------------------------- */
 .hero {
     display: flex;
