@@ -142,9 +142,9 @@ body {
     margin-bottom: var(--half-padding);
 }
 
-.feature-text h3 {
-    font-size: var(--font-size-xlarge);
-    margin-bottom: var(--standard-padding);
+.feature-text p {
+    font-size: var(--font-size-large);
+    margin-bottom: calc(var(--standard-padding) + var(--half-padding));
     color: var(--color-primary);
 }
 
@@ -154,6 +154,7 @@ body {
 }
 
 .feature-text li {
+    font-size: var(--font-size-medium);
     margin: var(--standard-padding) 0;
 }
 
