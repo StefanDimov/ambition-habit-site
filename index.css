@@ -12,6 +12,13 @@
     --half-padding: calc(var(--standard-padding) / 2);
     --double-padding: calc(var(--standard-padding) * 2);
     --quadriple-padding: calc(var(--standard-padding) * 4);
+    --font-size-small: 0.8rem;
+    --font-size-medium: 1rem;
+    --font-size-large: 1.2rem;
+    --font-size-xlarge: 1.5rem;
+    --font-size-xxlarge: 2rem;
+    --font-size-xxxlarge: 2.5rem;
+    --font-size-xxxxlarge: 3rem;
 }
 
 /* General --------------------------------------------------------------------- */
@@ -51,7 +58,7 @@ body {
 }
 
 .navbar-title {
-    font-size: 1.2rem;
+    font-size: var(--font-size-large);
     font-weight: bold;
 }
 
@@ -68,7 +75,7 @@ body {
 
 .navbar a {
     text-decoration: none;
-    font-size: 0.8rem;
+    font-size: var(--font-size-small);
     font-weight: bold;
     color: var(--color-primary);
 }
@@ -94,13 +101,19 @@ body {
 }
 
 .hero h1 {
-    font-size: 3rem;
+    font-size: var(--font-size-xxxxlarge);
     margin-bottom: 0;
 }
 
 .hero p {
-    font-size: 1.5rem;
+    font-size: var(--font-size-xlarge);
     margin-bottom: var(--double-padding);
+}
+
+.hero-image {
+    margin-top: var(--double-padding);
+    width: 90%;
+    max-width: 800px;
 }
 
 .cta-image {
@@ -114,32 +127,6 @@ body {
 .cta-image:hover {
     transform: scale(1.05);
     opacity: 1;
-}
-
-/* Hero Images --------------------------------------------------------------------- */
-.hero-images {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: var(--double-padding);
-}
-
-.hero-image {
-    border: 1px solid #eee;
-    border-radius: 1rem;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
-}
-
-.hero-image:nth-child(1),
-.hero-image:nth-child(3) {
-    width: 25%;
-    max-width: 250px;
-    margin: 0 var(--standard-padding);
-}
-
-.hero-image:nth-child(2) {
-    width: 30%;
-    max-width: 300px;
 }
 
 /* Feature Section --------------------------------------------------------------------- */
@@ -173,12 +160,12 @@ body {
 }
 
 .feature-text h2 {
-    font-size: 2rem;
+    font-size: var(--font-size-xxlarge);
     margin-bottom: var(--half-padding);
 }
 
 .feature-text h3 {
-    font-size: 1.5rem;
+    font-size: var(--font-size-xlarge);
     margin-bottom: var(--standard-padding);
     color: var(--color-primary);
 }
@@ -209,12 +196,12 @@ body {
 }
 
 .cta-content h2 {
-    font-size: 2.5rem;
+    font-size: var(--font-size-xxxlarge);
     margin-bottom: var(--standard-padding);
 }
 
 .cta-content p {
-    font-size: 1.2rem;
+    font-size: var(--font-size-large);
     margin-bottom: var(--double-padding);
 }
 
@@ -250,7 +237,7 @@ body {
 }
 
 .other-features h2 {
-    font-size: 2.5rem;
+    font-size: var(--font-size-xxxlarge);
     margin-bottom: var(--double-padding);
 }
 
@@ -265,7 +252,7 @@ body {
     background-color: var(--secondary-background-color);
     padding: var(--standard-padding);
     border-radius: 0.5rem;
-    font-size: 1.2rem;
+    font-size: var(--font-size-large);
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -303,7 +290,7 @@ body {
 .footer-links a {
     color: var(--color-primary);
     text-decoration: none;
-    font-size: 1rem;
+    font-size: var(--font-size-medium);
 }
 
 .footer-links a:hover {
@@ -312,5 +299,5 @@ body {
 
 .footer p {
     color: var(--color-primary);
-    font-size: 0.9rem;
+    font-size: var(--font-size-small);
 }
