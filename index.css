@@ -322,3 +322,9 @@ body {
   color: var(--color-primary);
   font-size: var(--font-size-small);
 }
+
+/* Privacy Policy ---------------------------------------------------------------------  */
+
+.container-padding {
+  padding: var(--double-padding);
+}
