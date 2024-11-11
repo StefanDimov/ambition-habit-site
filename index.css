@@ -179,11 +179,12 @@ body {
 
 .feature-text h2 {
   font-size: var(--font-size-xxlarge);
-  margin-bottom: var(--half-padding);
+  margin-bottom: 0;
 }
 
 .feature-text p {
   font-size: var(--font-size-large);
+  font-weight: lighter;
   margin-bottom: calc(var(--standard-padding) + var(--half-padding));
   color: var(--color-secondary);
 }
