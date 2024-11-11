@@ -109,6 +109,7 @@ body {
 @media (max-width: 768px) {
   .hero-title-container {
     flex-direction: column;
+    margin-top: var(--standard-padding);
   }
 
   .hero-icon {
