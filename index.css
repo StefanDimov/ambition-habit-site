@@ -1,6 +1,6 @@
 /* Fonts ---------------------------------------------------------------------- */
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 
 /* Vars --------------------------------------------------------------------- */
 
@@ -88,9 +88,15 @@ body {
   margin: 0;
 }
 
-.hero p {
-  font-size: var(--font-size-xlarge);
+.hero .hero-subtext {
+  font-size: var(--font-size-large);
   margin-bottom: var(--double-padding);
+}
+
+.hero .hero-subtext-light {
+  font-weight: lighter;
+  font-size: var(--font-size-xlarge);
+  margin-bottom: var(--half-padding);
 }
 
 .hero-image {
