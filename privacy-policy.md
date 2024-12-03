@@ -42,7 +42,7 @@ We use third-party services such as Google Analytics and Firebase Crashlytics to
 
 ## Data Protection Officer
 
-If you have any questions or concerns regarding this Privacy Policy, or if you wish to exercise any of your rights, please contact our Data Protection Officer at stefan.p.dimov@gmail.com.
+If you have any questions or concerns regarding this Privacy Policy, or if you wish to exercise any of your rights, please contact our Data Protection Officer at contact@ambitionhabits.com.
 
 ## Data Breach Notification
 
@@ -50,7 +50,7 @@ In the unlikely event of a data breach that affects your data, we will notify yo
 
 ## Contact Us
 
-If you have any questions or concerns regarding this Privacy Policy, please feel free to contact us at stefan.p.dimov@gmail.com.
+If you have any questions or concerns regarding this Privacy Policy, please feel free to contact us at contact@ambitionhabits.com.
 
 ## Changes to This Privacy Policy
 
