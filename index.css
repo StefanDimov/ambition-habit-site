@@ -14,7 +14,7 @@
   --secondary-background-color: #f9f9f9;
 
   /* Paddings */
-  --standard-padding: 1.2rem;
+  --standard-padding: 1.8rem;
   --half-padding: calc(var(--standard-padding) / 2);
   --double-padding: calc(var(--standard-padding) * 2);
   --quadriple-padding: calc(var(--standard-padding) * 4);
@@ -31,7 +31,7 @@
 
 @media (max-width: 768px) {
   :root {
-    --standard-padding: 1rem;
+    --standard-padding: 1.4rem;
   }
 }
 
@@ -67,54 +67,53 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: var(--double-padding);
 }
 
-.hero-title-container {
-  margin-top: var(--quadriple-padding);
+.hero-app-name-container {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  gap: var(--standard-padding);
+  gap: var(--half-padding);
 }
 
-.hero-icon {
-  width: 60px;
-  height: 60px;
+.hero-app-icon {
+  width: 32px;
+  height: 32px;
 }
 
-.hero h1 {
-  font-size: var(--font-size-xxxxlarge);
+.hero-app-title {
+  font-size: var(--font-size-large);
   margin: 0;
 }
 
-.hero .hero-subtext {
-  font-size: var(--font-size-large);
-  margin-bottom: var(--double-padding);
+.hero-headline {
+  font-size: var(--font-size-xxxxlarge);
+  margin: var(--standard-padding) 0 0 0;
 }
 
-.hero .hero-subtext-light {
+.hero-subheadline {
+  font-size: var(--font-size-large);
   font-weight: lighter;
-  font-size: var(--font-size-xlarge);
-  margin-bottom: var(--half-padding);
+  margin: var(--standard-padding) 0 var(--double-padding) 0;
 }
 
 .hero-image {
-  margin-top: var(--double-padding);
-  width: 90%;
-  min-width: 600px;
-  max-width: 800px;
+  width: 90vw;
+  height: auto;
+  max-width: 460px;
 }
 
-@media (max-width: 768px) {
-  .hero-title-container {
-    flex-direction: column;
-    margin-top: var(--standard-padding);
+@media (min-width: 1300px) {
+  .hero {
+    flex-direction: row;
   }
 
-  .hero-icon {
-    width: 80px;
-    height: 80px;
+  .hero-content {
+    margin: 0;
+    align-items: start;
+    text-align: left;
   }
 }
 
@@ -123,11 +122,14 @@ body {
 .cta-images-container {
   display: flex;
   justify-content: center;
-  gap: var(--standard-padding);
+  gap: var(--half-padding);
   flex-direction: row;
+  margin-bottom: var(--standard-padding);
 }
 
 .cta-image {
+  width: 150px;
+  height: auto;
   transition: transform 0.25s;
 }
 
