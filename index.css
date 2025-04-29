@@ -149,16 +149,69 @@ body {
   }
 }
 
-/* Feature Section --------------------------------------------------------------------- */
+/* Section --------------------------------------------------------------------- */
 
-.feature {
+.section {
   background-color: var(--secondary-background-color);
   padding: var(--quadriple-padding);
 }
 
-.feature:nth-child(odd) {
+.section:nth-child(odd) {
   background-color: var(--primary-background-color);
 }
+
+/* Key Features --------------------------------------------------------------------- */
+
+.key-features-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--quadriple-padding);
+}
+
+.key-feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  gap: var(--half-padding);
+}
+
+.key-feature-image {
+  width: 130px;
+  height: 130px;
+}
+
+.key-feature-label {
+  font-size: var(--font-size-xlarge);
+  font-weight: bold;
+  color: var(--color-primary);
+  text-align: center;
+}
+
+.key-feature-description {
+  font-size: var(--font-size-large);
+  font-weight: lighter;
+  color: var(--color-secondary);
+  text-align: center;
+}
+
+@media (min-width: 1000px) {
+  .key-features-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1500px) {
+  .key-features-container {
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+}
+
+
+/* Feature --------------------------------------------------------------------- */
 
 .feature-content {
   display: flex;
@@ -234,7 +287,7 @@ body {
 
 /* CTA Section --------------------------------------------------------------------- */
 .cta-section {
-  background-color: var(--secondary-background-color);
+  background-color: var(--primary-background-color);
   padding: var(--double-padding);
   text-align: center;
 }
@@ -256,7 +309,7 @@ body {
 
 /* Other Features Section --------------------------------------------------------------------- */
 .other-features {
-  background-color: var(--primary-background-color);
+  background-color: var(--secondary-background-color);
   padding: var(--quadriple-padding);
   text-align: center;
 }
@@ -295,7 +348,7 @@ body {
 
 /* Footer Section --------------------------------------------------------------------- */
 .footer {
-  background-color: var(--secondary-background-color);
+  background-color: var(--primary-background-color);
   padding: var(--standard-padding) 0;
   text-align: center;
 }
