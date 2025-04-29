@@ -207,7 +207,8 @@ body {
 @media (min-width: 1500px) {
   .key-features-container {
     grid-template-columns: repeat(4, 1fr);
-    max-width: 1400px;
+    max-width: 1450px;
+    width: 100%;
   }
 }
 
