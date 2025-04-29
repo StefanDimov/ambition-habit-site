@@ -199,6 +199,8 @@ body {
 @media (min-width: 1000px) {
   .key-features-container {
     grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    margin: 0 auto;
   }
 }
 
@@ -206,7 +208,6 @@ body {
   .key-features-container {
     grid-template-columns: repeat(4, 1fr);
     max-width: 1400px;
-    margin: 0 auto;
   }
 }
 
