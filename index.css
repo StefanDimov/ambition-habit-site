@@ -14,7 +14,7 @@
   --secondary-background-color: #f9f9f9;
 
   /* Paddings */
-  --standard-padding: 1.8rem;
+  --standard-padding: 1.6rem;
   --half-padding: calc(var(--standard-padding) / 2);
   --double-padding: calc(var(--standard-padding) * 2);
   --quadriple-padding: calc(var(--standard-padding) * 4);
