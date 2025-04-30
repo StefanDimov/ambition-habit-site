@@ -212,9 +212,9 @@ body {
   }
 }
 
-/* New Feature --------------------------------------------------------------------- */
+/* Center Feature --------------------------------------------------------------------- */
 
-.new-feature {
+.center-feature {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -223,20 +223,20 @@ body {
   gap: var(--half-padding);
 }
 
-.new-feature-image-center {
+.center-feature-image-center {
   width: 90vw;
   height: auto;
   max-width: 700px;
 }
 
-.new-feature-label {
+.center-feature-label {
   font-size: var(--font-size-xxlarge);
   font-weight: bold;
   color: var(--color-primary);
   text-align: center;
 }
 
-.new-feature-description {
+.center-feature-description {
   font-size: var(--font-size-large);
   font-weight: lighter;
   color: var(--color-secondary);
