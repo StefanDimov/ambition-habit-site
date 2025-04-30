@@ -333,81 +333,6 @@ body {
   }
 }
 
-
-/* Feature --------------------------------------------------------------------- */
-
-.feature-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  gap: var(--double-padding);
-}
-
-.feature-image {
-  flex: 1;
-}
-
-.feature-image img {
-  max-width: 100%;
-}
-
-.feature-text {
-  flex: 1;
-}
-
-.feature-text h2 {
-  font-size: var(--font-size-xxlarge);
-  margin-bottom: 0;
-}
-
-.feature-text p {
-  font-size: var(--font-size-large);
-  font-weight: lighter;
-  margin-bottom: calc(var(--standard-padding) + var(--half-padding));
-  color: var(--color-secondary);
-}
-
-.feature-text ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.feature-text li {
-  font-size: var(--font-size-medium);
-  margin: var(--standard-padding) 0;
-}
-
-.feature-text li strong {
-  font-weight: bold;
-}
-
-@media (max-width: 768px) {
-  .feature {
-    padding: var(--double-padding);
-  }
-
-  .feature-content {
-    flex-direction: column;
-  }
-
-  .feature-text h2 {
-    text-align: center;
-  }
-
-  .feature-text p {
-    text-align: center;
-  }
-
-  .feature-text {
-    order: 1;
-  }
-
-  .feature-image {
-    order: 2;
-  }
-}
-
 /* CTA Section --------------------------------------------------------------------- */
 .cta-section {
   background-color: var(--primary-background-color);
@@ -428,45 +353,6 @@ body {
 .cta-content p {
   font-size: var(--font-size-large);
   margin-bottom: var(--double-padding);
-}
-
-/* Other Features Section --------------------------------------------------------------------- */
-.other-features {
-  background-color: var(--secondary-background-color);
-  padding: var(--quadriple-padding);
-  text-align: center;
-}
-
-.other-features-content {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.other-features h2 {
-  font-size: var(--font-size-xxxlarge);
-  margin-bottom: var(--double-padding);
-}
-
-.features-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: var(--standard-padding);
-}
-
-.feature-item {
-  background-color: var(--secondary-background-color);
-  padding: var(--standard-padding);
-  border-radius: 0.5rem;
-  font-size: var(--font-size-large);
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: transform 0.3s;
-  flex: 1 1 150px; /* Ensure items are at least 150px wide */
-  max-width: 200px; /* Optional: Set a max-width for the items */
-  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Footer Section --------------------------------------------------------------------- */
