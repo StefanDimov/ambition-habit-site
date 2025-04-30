@@ -315,6 +315,10 @@ body {
     align-items: center;
   }
 
+  .side-feature-reverse {
+    flex-direction: row-reverse;
+  }
+
   .side-feature-text-container {
     align-items: start;
     text-align: left;
