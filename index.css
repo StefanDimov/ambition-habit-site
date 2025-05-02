@@ -356,6 +356,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: var(--standard-padding);
+  margin-bottom: var(--standard-padding);
 }
 
 .price-value-container {
@@ -452,32 +453,14 @@ body {
   background-color: var(--secondary-background-color);
 }
 
-/* CTA Section --------------------------------------------------------------------- */
-.cta-section {
-  background-color: var(--primary-background-color);
-  padding: var(--double-padding);
-  text-align: center;
-}
-
-.cta-content {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.cta-content h2 {
-  font-size: var(--font-size-xxxlarge);
-  margin-bottom: var(--standard-padding);
-}
-
-.cta-content p {
-  font-size: var(--font-size-large);
-  margin-bottom: var(--double-padding);
+.cta-buttons-margin {
+  margin-top: var(--double-padding);
 }
 
 /* Footer Section --------------------------------------------------------------------- */
 .footer {
   background-color: var(--primary-background-color);
-  padding: var(--standard-padding) 0;
+  padding-bottom: var(--standard-padding);
   text-align: center;
 }
 
@@ -492,7 +475,17 @@ body {
   padding: 0;
   margin: 0 0 var(--half-padding) 0;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   gap: var(--standard-padding);
+}
+
+.footer-link-divider {
+  width: 5px;
+  height: 5px;
+  background-color: var(--color-secondary);
+  border-radius: 50%;
 }
 
 .footer-links li {
@@ -507,15 +500,4 @@ body {
 
 .footer-links a:hover {
   text-decoration: underline;
-}
-
-.footer p {
-  color: var(--color-primary);
-  font-size: var(--font-size-small);
-}
-
-/* Privacy Policy ---------------------------------------------------------------------  */
-
-.container-padding {
-  padding: var(--double-padding);
 }
