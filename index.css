@@ -230,7 +230,7 @@ body {
 .center-feature-image {
   width: 90vw;
   height: auto;
-  max-width: 700px; 
+  max-width: 700px;
 }
 
 .center-feature-min-header {
@@ -272,7 +272,7 @@ body {
 .side-feature-image {
   width: 90vw;
   height: auto;
-  max-width: 400px; 
+  max-width: 400px;
 }
 
 .side-feature-text-container {
@@ -337,130 +337,17 @@ body {
   }
 }
 
-/* Pricing Table --------------------------------------------------------------------- */
-
-.pricing-table {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  gap: var(--half-padding);
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.price-values {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: var(--standard-padding);
-  margin-bottom: var(--standard-padding);
-}
-
-.price-value-container {
-  padding: var(--standard-padding);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.price-value-label {
-  font-size: var(--font-size-medium);
-  font-weight: 500;
-  color: var(--color-secondary);
-  margin-bottom: var(--half-padding);
-}
-
-.price-value-amount {
-  font-size: var(--font-size-xxlarge);
-  font-weight: bold;
-  color: var(--color-primary);
-  margin-bottom: 5px;
-}
-
-.price-value-period {
-  font-size: var(--font-size-small);
-  color: var(--color-secondary);
-  margin-bottom: 5px;
-}
-
-.price-value-flexible {
-  background-color: #ecf8ed;
-  color: #4fb054;
-  font-size: var(--font-size-small);
-  font-weight: bold;
-  padding: 3px 8px;
-  border-radius: 12px;
-  display: inline-block;
-  margin-top: 5px;
-}
-
-.price-value-save {
-  background-color: #f0f8ff;
-  color: #0066cc;
-  font-size: var(--font-size-small);
-  font-weight: bold;
-  padding: 3px 8px;
-  border-radius: 12px;
-  display: inline-block;
-  margin-top: 5px;
-}
-
-.price-value-divider {
-  width: 2px;
-  height: 2em;
-  background-color: #bbb;
-  transform: rotate(15deg);
-  border-radius: 8px;
-}
-
-.pricing-table table {
-  width: 100%;
-  border-collapse: collapse;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-.pricing-table th {
-  font-size: var(--font-size-large);
-  font-weight: 500;
-  text-align: center;
-  padding: var(--standard-padding);
-  border-bottom: 1px solid #eee;
-}
-
-.pricing-table th:first-child {
-  text-align: left;
-  width: 50%;
-}
-
-.pricing-table td {
-  padding: var(--half-padding) var(--standard-padding);
-  text-align: center;
-  font-size: var(--font-size-medium);
-}
-
-.pricing-table td:first-child {
-  text-align: left;
-  font-weight: 400;
-}
-
-.pricing-table tr:nth-child(odd) {
-  background-color: var(--secondary-background-color);
-}
-
-.cta-buttons-margin {
-  margin-top: var(--double-padding);
-}
-
 /* Footer Section --------------------------------------------------------------------- */
 .footer {
   background-color: var(--primary-background-color);
-  padding-bottom: var(--standard-padding);
+  padding: var(--standard-padding);
+  text-align: center;
+}
+
+.footer-header {
+  font-size: var(--font-size-xxlarge);
+  font-weight: bold;
+  color: var(--color-primary);
   text-align: center;
 }
 
